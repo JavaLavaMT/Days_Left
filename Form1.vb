@@ -16,7 +16,7 @@
         Dim t As TimeSpan = yourDate - today
         'makes a string
         Dim result As String = "you have " & t.Days
-
+        'shows the days left    
         txtShow.Text = result
 
 
